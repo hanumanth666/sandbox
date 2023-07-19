@@ -8,12 +8,12 @@ resource "aws_instance" "ec2_instance" {
 
   tags = {
     Name = "my-ec2-instance"   #update your name
-    Team = username
-    InstanceScheduler = on
-    Component = sandbox
-    InstanceSchedulerAutoStart = off
-    QSConfigName-e1mns = scan
-    Role = username
-    env = stg
+    Team = "username"
+    InstanceScheduler = "on"
+    Component = "sandbox"
+    InstanceSchedulerAutoStart = "off"
+    QSConfigName-e1mns = "scan"
+    Role = "username"
+    env = "stg"
 }
 }
